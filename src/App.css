@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  background: #dddddd;
 }
 
 .App-logo {
@@ -35,4 +36,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.btn-list > div {
+  margin-bottom: 10px;
+}
+
+.program-card img{
+  background: #dddddd;
+}
+.program-card{
+  display: flex;
+}
+.program-card .card-body.img{
+  flex: none;
 }
